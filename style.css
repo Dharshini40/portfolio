@@ -1,5 +1,6 @@
+
 body{
-    background-color:rgb(188, 145, 77);
+    background-color:peru;
 }
 .d{
  color:darkred;
@@ -13,6 +14,7 @@ body{
 
 p{
     font-size:60px;
+    text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 pre{
@@ -30,10 +32,15 @@ h2{
     color: darkred;
 }
 .image{
-    float:right;
-    margin-right:20%;
-    margin-top:10%;
+    display:block;
+    margin: auto;
 }
 div{
+    text-align: center;
+}
+.s{
+    color: darkred;
+}
+ul{
     text-align: center;
 }
