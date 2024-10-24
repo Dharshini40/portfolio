@@ -1,68 +1,24 @@
+
 *{
-    margin:0%;
-    padding: 0%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-sizing: border-box;
-}
-body{
-    background-color:#080808;
-    color:#fff ;
+    background-color: #080808;
+    color: #fff;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/myimage.jpg);
     background-size: cover;
     background-position: center;
 }
-h3{
-    text-align: start;
-}
-.d{
- color:darkred;
-}
-.r{
-    color: darkred;
-}
-.h{
-    color: darkred;
-}
-
-p{
-    font-size: 80px;
-    text-align:left;
-    margin-top: 10%;
-}
-pre{
-    font-size:20px;
-    margin-right: 0%;
-}
-h2{
-    text-align:left;
-}
-.a{
-    color: darkred;
-}
-.m{ 
-    color: darkred;
-}
-div{
-    text-align: center;
-}
-.s{
-    color: darkred;
-}
 nav{
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 nav ul li{
-    text-align: end;
     display:inline-block;
     list-style: none;
-    margin: 40px 30px;
+    margin: 10px 100px;
 }
 nav ul li a{
     color: #fff;
@@ -77,9 +33,107 @@ nav ul li a::after{
     background: darkred;
     position: absolute;
     left: 0;
+    float:inline-end;
     bottom: -6px;
     transition: 0.5s;
 }
 nav ul li a:hover::after{
     width: 100%;
 }
+.d{
+ color:darkred;
+}
+.r{
+    color: darkred;
+}
+.h{
+    color: darkred;
+}
+h1{
+    font-size: 60px;
+}
+.git{
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+.link{
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.mail{
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.a{
+    color: darkred;
+}
+.m{ 
+    color: darkred;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.describe{
+    font-size: 30px;
+    
+}
+.skills{
+    font-size: 30px;
+    margin-left:45%;
+    margin-right: 50%;
+}
+.p{
+    color: darkred;
+}
+.projects{
+    font-size: 30px;
+    margin-left:30%;
+    margin-right: 20%;
+
+}
+.c{
+    color: darkred;
+}
+.call input,.call textarea{
+    width:50%;
+    padding: 10px;
+    margin: auto;
+    border: 2px dotted darkred;
+    border-radius: auto;
+    box-sizing: border-box;
+
+
+}
+.call p{
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
